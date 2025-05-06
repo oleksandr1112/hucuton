@@ -8,11 +8,11 @@ body{
     gap: 20px;
     font-size: 64px;
 }
-#scene5, #scene6{
+#scene5, #scene6, #scene11b{
     background: url(img/bg_for_text.png)  center center/cover;
     gap: 10px;
     font-size: 36px;
-    padding: 30px 200px;
+    padding: 0px 200px;
 }
 .scene{
     min-height: 100vh;
