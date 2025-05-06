@@ -4,9 +4,15 @@ body{
     color: white;
 }
 #scene1{    
-    background: url(img/bg_for_text.png) no-repeat center center/cover;
+    background: url(img/bg_for_text.png)  center center/cover;
     gap: 20px;
     font-size: 64px;
+}
+#scene5, #scene6{
+    background: url(img/bg_for_text.png)  center center/cover;
+    gap: 10px;
+    font-size: 36px;
+    padding: 30px 200px;
 }
 .scene{
     min-height: 100vh;
@@ -37,6 +43,7 @@ body{
     flex-direction: column;
     font-size: 20px;
     width: 100%;
+    
 }
 
 .btn-color2{
@@ -65,5 +72,8 @@ height: 100%;
 gap: 50px;
 
 
+}
+p{
+  text-align: center;  
 }
 
