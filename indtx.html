@@ -10,7 +10,7 @@
     
     <section id="scene1" class="scene active" >  
         <h1>Привіт</h1>
-        <p>Готовий зіграти у фентезі гру?</p>
+        <p class="start-text">Готовий зіграти у фентезі гру?</p>
         <button class="btn-color1 btn" data-target="scene2">Почати</button>  
     </section>
     
@@ -21,7 +21,7 @@
         </div>
         <div class="btn-and-img">
             <button class="btn-color2" data-target="scene3">Відправитися на завдання</button>
-            <img src="img/image1.png" alt="">
+            <img class="img" src="img/image1.png" alt="">
         </div>
     </section>
     
@@ -34,21 +34,22 @@
             <div class="contaner-btn">
                 <button class="btn-color2" data-target="scene4a">Піти через ліс</button>
                 <button class="btn-color2" data-target="scene4b">Піти через долину</button>
+                <button class="btn-color2" data-target="random">Випадковий вибір</button>
             </div>
-            <img src="img/image2.png" alt="">
+            <img class="img" src="img/image2.png" alt="">
         </div>
     </section>
     <section id="scene4a" class="scene " >
         <div class="contaner-text">
                 <h1>Зустріч у лісі</h1>
-                <p>У лісі зустівся магічний вовк, який не бажає Вас пропустити. Що Ви будете робити?   </p>
+                <p>У лісі зустрівся магічний вовк, який не бажає Вас пропустити. Що Ви будете робити?   </p>
         </div>
         <div class="btn-and-img">
             <div class="contaner-btn">
                 <button class="btn-color2" data-target="scene5">Прогнати його за допомогою магії</button>
                 <button class="btn-color2" data-target="scene7">Перелетіти його за допомогою магії і не чіпати магічного вовка</button>
             </div>
-            <img src="img/image3.png" alt="">
+            <img class="img" src="img/image3.png" alt="">
         </div>
     </section>
     <section id="scene4b" class="scene " >
@@ -61,7 +62,7 @@
                 <button class="btn-color2" data-target="scene7">Принести букет квітів</button>
                 <button class="btn-color2" data-target="scene6">Спробувати пробігти повз нього</button>
             </div>
-            <img src="img/image 4.png" alt="">
+            <img class="img" src="img/image 4.png" alt="">
         </div>
     </section>
     <section id="scene5" class="scene " >  
@@ -75,7 +76,7 @@
     <section id="scene6" class="scene " >  
             <h1>Поразка</h1>
             <p> 
-                Велитень виявився спритним, і спіймав Вас. Вас переможено. Але Ви можете спробувати знову
+                Велетень виявився спритним, і спіймав Вас. Вас переможено. Але Ви можете спробувати знову
             </p>
             <button class="btn-color1 btn" data-target="scene2">Почати знову</button>  
         
@@ -90,7 +91,7 @@
                 <button class="btn-color2" data-target="scene9">Погодитись </button>
                 <button class="btn-color2" data-target="scene8">Все одно прогнати дракона</button>
             </div>
-            <img src="img/image 5.png" alt="">
+            <img class="img" src="img/image 5.png" alt="">
         </div>
     </section>
     <section id="scene9" class="scene " >
@@ -103,7 +104,7 @@
                 <button class="btn-color2" data-target="scene10">Допомогти гномам </button>
                 
             </div>
-            <img src="img/image 6.png" alt="">
+            <img class="img" src="img/image 6.png" alt="">
         </div>
     </section>
     <section id="scene8" class="scene " >
@@ -116,7 +117,7 @@
                 <button class="btn-color2" data-target="scene2">Зіграти знову </button>
                 
             </div>
-            <img src="img/image 8.png" alt="">
+            <img class="img" src="img/image 8.png" alt="">
         </div>
     </section>
     <section id="scene10" class="scene " >
@@ -129,7 +130,7 @@
                 <button class="btn-color2" data-target="scene11a">Начаклувати їй їжу </button>
                 <button class="btn-color2" data-target="scene11b">Прогнати її </button>
             </div>
-            <img src="img/image 7.png" alt="">
+            <img class="img" src="img/image 7.png" alt="">
         </div>
     </section>
     <section id="scene11b" class="scene " >  
@@ -150,9 +151,10 @@
             <button class="btn-color2" data-target="scene2">Зіграти знову </button>
            
         </div>
-        <img src="img/image 9.png" alt="">
+        <img class="img" src="img/image 9.png" alt="">
     </div>
 </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
 </body>
 </html>
